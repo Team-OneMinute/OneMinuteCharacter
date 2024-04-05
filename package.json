@@ -1,0 +1,8 @@
+{
+  "name": "OneMinuteCharacter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Team-OneMinute/OneMinuteCharacter.git",
+  "author": "shuta <sdsds.com@hotmail.co.jp>",
+  "license": "MIT"
+}

@@ -6,17 +6,26 @@
 ### NFT List
 - Character NFT
   - ERC-721 
-  - ユーザがクリエイトするキャラクター
+  - ThirdWebで作成後々こっちでつくる
+    - https://thirdweb.com/astar-zkyoto/0x093d8549D8cBcF5844B23f508ac2c1687E92862D
+  - ユーザがclaimするキャラクター
   - このNFTがERC-6551を使ってスマートアカウントを保持する
+  - GelatoでGasslessTransactionを行う
+    - https://app.gelato.network/relay
 - Heart NFT
   - ERC-721
+  - CrossMintで作成
+  - クレカで購入またはAssetsで購入後CharacterNFTSmartWalletに転送
   - 課金プレイするためのアイテム
   - 初期に２０回（暫定）の体力が付与されている
   - 付与された体力はファイナライズの関係でoffchainで管理する
 - Portion NFT
   - 初回購入の体力がなくなったら追加する体力
+  - クレカで購入またはAssetsで購入後CharacterNFTSmartWalletに転送
 - Free Portion NFT
   - ユーザのゲーム実績に応じて運営から付与されるNFT
+  - GelatoでGasslessTransactionでClaimさせる
+    - https://app.gelato.network/relay
 
 ## For Dev
 - ERC-6551
